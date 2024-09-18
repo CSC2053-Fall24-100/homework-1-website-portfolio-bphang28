@@ -1,5 +1,5 @@
 function loadNavbar() {
-    const navbar = 
+    const navbar = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
@@ -15,6 +15,6 @@ function loadNavbar() {
     </ul>
     </div>
     </nav>
-    ;
+    `;
     document.getElementById('navbar-container').innerHTML = navbar;
    }
